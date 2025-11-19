@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas de Música</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background: #0a0a0a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #d4a200;
+        }
+
+        .logo {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: #000;
+            padding: 12px;
+            text-align: center;
+            border-bottom: 2px solid #d4a200;
+        }
+
+        nav a {
+            color: #f1f1f1;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        .banner {
+            background: url("https://images.unsplash.com/photo-1511379938547-c1f69419868d") no-repeat center/cover;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.3rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 15px #000;
+            border-bottom: 2px solid #d4a200;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: #0a0a0a;
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid #d4a200;
+            margin-bottom: 25px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #ffcc00;
+        }
+
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-top: 2px solid #d4a200;
+        }
+
+        /* Botão WhatsApp */
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            border-radius: 50%;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 15px #000;
+            z-index: 999;
+        }
+
+        .whatsapp img {
+            width: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img class="logo" src="https://cdn-icons-png.flaticon.com/512/727/727245.png" alt="Logo">
+    <h1>Aulas de Música</h1>
+    <p>Baixo • Teclado • Bateria • Teoria Musical</p>
+</header>
+
+<nav>
+    <a href="#inicio">Início</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="banner" id="inicio">
+    Transforme seu sonho musical em realidade 🎶
+</div>
+
+<div class="container">
+
+    <div class="card" id="sobre">
+        <h2>🎼 Sobre as Aulas</h2>
+        <p>Oferecemos aulas práticas e teóricas para todas as idades. Aprenda no seu ritmo, com material de apoio e acompanhamento completo.</p>
+    </div>
+
+    <div class="card" id="aulas">
+        <h2>🎸 Tipos de Aulas</h2>
+        <ul style="font-size: 1.1rem; line-height: 1.8;">
+            <li>Baixo</li>
+            <li>Teclado</li>
+            <li>Bateria</li>
+            <li>Teoria Musical e Percepção</li>
+            <li>Aulas Presenciais</li>
+        </ul>
+    </div>
+
+    <!-- AGENDA COMPLETA DENTRO DO MESMO HTML -->
+    <div class="card" id="agenda">
+        <h2>📅 Agenda Semanal</h2>
+
+        <div class="dia">
+            <h3>Segunda-feira</h3>
+          
+        </div>
+
+        <div class="dia">
+            <h3>Terça-feira</h3>
+            
+        </div>
+
+        <div class="dia">
+            <h3>Quarta-feira</h3>
+            
+        </div>
+
+        <div class="dia">
+            <h3>Quinta-feira</h3>
+            
+        </div>
+
+        <div class="dia">
+            <h3>Sexta-feira</h3>
+            
+        </div>
+
+        <div class="dia">
+            <h3>Sábado</h3>
+            
+        </div>
+
+        
+
+    <div class="card" id="contato">
+        <h2>📩 Contato</h2>
+        <p>Agende sua aula teste grátis!</p>
+        <p><strong>WhatsApp:</strong> (31) 99494-6665</p>
+        <p><strong>Email:</strong> ariellarruso9@gmail.com </p>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Aulas de Música – Todos os direitos reservados
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5531994946665" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+</a>
+
+</body>
+</html>
